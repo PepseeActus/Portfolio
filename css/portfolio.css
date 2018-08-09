@@ -1,8 +1,13 @@
+/*GENERAL*/
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.3rem;
+  line-height: 1.4;
 }
 h1 {
   font-size: 5em;
@@ -11,19 +16,41 @@ h1 {
 p {
   font-family: 'Montserrat', sans-serif;
 }
-i,
 a {
+  color: inherit;
+  text-decoration: none;
+}
+i {
   color: black;
+}
+img {
+  width: 100%;
 }
 .firstPart i,
 .firstPart a,
 footer .reseaux a i {
   color: white;
 }
+
+/*HEADER*/
 header {
   box-shadow: 0px -8px 30px 15px #2322204d;
   margin-bottom: 25px;
 }
+.cool-link::after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+/*BODY*/
 .firstPart {
   background-image: url("../img/head.jpeg");
   background-repeat: no-repeat;
@@ -103,21 +130,122 @@ header {
   color:#fff;
   opacity:1;
 }
-.cool-link::after {
-  content: " ";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #fff;
-  transition: width .3s;
-}
-.cool-link:hover::after {
-  width: 100%;
-  transition: width .3s;
-}
 form {
   padding: 10px 90px 0;
 }
+
+/*CARD PORTFOLIO*/
+.carte {
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s;
+  overflow: hidden;
+}
+.carte:hover {
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.carte__date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  padding-top: 10px;
+  color: #fff;
+  line-height: 13px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: orange;
+}
+.carte__date__day {
+  display: block;
+  font-size: 14px;
+}
+.carte__date__month {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.carte__thumb {
+  height: 275px;
+  background-color: #000;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+.carte__thumb img {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: scale(1);
+}
+.carte:hover .carte__thumb img {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+.carte:hover .carte__thumb {
+  height: 190px;
+}
+.carte__body {
+  position: relative;
+  padding: 20px;
+  height: 130px;
+  transition: height 0.3s;
+}
+.carte:hover .carte__body {
+  height: 230px;
+}
+.carte__category {
+  position: absolute;
+  left: 0;
+  top: -25px;
+  height: 25px;
+  padding: 0 15px;
+  background-color: orange;
+  color: #fff;
+  font-size: 11px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.carte__title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.carte__subtitle {
+  color: orange;
+  font-size: 19px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.carte__description {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 60px;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.3s;
+  transition-delay: 0s;
+  margin: 0;
+  padding: 0;
+}
+.carte:hover .carte__description {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+.carte__footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 11px;
+  text-align: left;
+}
+
+/*FOOTER*/
 hr {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

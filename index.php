@@ -55,48 +55,104 @@
     <div class="container">
       <p class="text-uppercase">creative</p>
       <h3 class="text-uppercase">portfolio</h3>
-      <div>
-        <p class="pt-4">J'utilise souvent: HTML, CSS, bootstrap, JavaScript et Jquery. En back : PHP, Ruby on Rails, Ajax. Mon CMS préféré est Wordpress et en base de donnée, j'utilise MYsql ou PostgreSQL</p>
-        <ul class="nav justify-content-center" id="myTab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="home-web" data-toggle="tab" href="#web" role="tab" aria-controls="home" aria-selected="true">Web</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="home-videos" data-toggle="tab" href="#videos" role="tab" aria-controls="home" aria-selected="false">Vidéos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="home-photos" data-toggle="tab" href="#photos" role="tab" aria-controls="home" aria-selected="false">Photos</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+      <p class="pt-4">J'utilise souvent: HTML, CSS, bootstrap, JavaScript et Jquery. En back : PHP, Ruby on Rails, Ajax. Mon CMS préféré est Wordpress et en base de donnée, j'utilise MYsql ou PostgreSQL</p>
+    </div>
+    <div>
+      <ul class="nav justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-web" data-toggle="tab" href="#web" role="tab" aria-controls="home" aria-selected="true">Web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="home-videos" data-toggle="tab" href="#videos" role="tab" aria-controls="home" aria-selected="false">Vidéos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="home-photos" data-toggle="tab" href="#photos" role="tab" aria-controls="home" aria-selected="false">Photos</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+          <div class="row m-0 px-4">
+            <article class="carte col-4 p-0">
+              <div class="carte__thumb">
+                <img src="img/project1.png" alt="project 1">
+              </div>
+              <div class="carte__date">
+                <span class="carte__date__day">7</span>
+                <span class="carte__date__month">Mars</span>
+              </div>
+              <div class="carte__body">
+                <div class="carte__category">HTML / CSS / PHP</div>
+                <div class="carte__title"><a href="#">Cup Of Tea</a></div>
+                <div class="carte__subtitle">Boutique en ligne</div>
+                <p class="carte__description">Une boutique en ligne pour un magasin de thé basé sur du HTML et CSS avec un peu de PHP en back</p>
+              </div>
+              <div class="carte__footer">
+                <span>Projet 3WA</span>
+              </div>
+            </article>
+            <article class="carte col-4 p-0 mx-4">
+              <div class="carte__thumb">
+                <img src="img/project1.png" alt="project 1">
+              </div>
+              <div class="carte__date">
+                <span class="carte__date__day">7</span>
+                <span class="carte__date__month">Mars</span>
+              </div>
+              <div class="carte__body">
+                <div class="carte__category">HTML / CSS / PHP</div>
+                <div class="carte__title"><a href="#">Cup Of Tea</a></div>
+                <div class="carte__subtitle">Boutique en ligne</div>
+                <p class="carte__description">Une boutique en ligne pour un magasin de thé basé sur du HTML et CSS avec un peu de PHP en back</p>
+              </div>
+              <div class="carte__footer">
+                <span>Projet 3WA</span>
+              </div>
+            </article>
+            <article class="carte col-4 p-0">
+              <div class="carte__thumb">
+                <img src="img/project1.png" alt="project 1">
+              </div>
+              <div class="carte__date">
+                <span class="carte__date__day">7</span>
+                <span class="carte__date__month">Mars</span>
+              </div>
+              <div class="carte__body">
+                <div class="carte__category">HTML / CSS / PHP</div>
+                <div class="carte__title"><a href="#">Cup Of Tea</a></div>
+                <div class="carte__subtitle">Boutique en ligne</div>
+                <p class="carte__description">Une boutique en ligne pour un magasin de thé basé sur du HTML et CSS avec un peu de PHP en back</p>
+              </div>
+              <div class="carte__footer">
+                <span>Projet 3WA</span>
+              </div>
+            </article>
           </div>
-          <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
-            <p>Mes voyages</p>
-            <div class="row">
-              <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/G-bUbZgNcDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/svPrq82MnII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="row">
-              <iframe class="col-12" width="560" height="315" src="https://www.youtube.com/embed/cD-DELz60yQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+        </div>
+        <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+          <p>Mes voyages</p>
+          <div class="row">
+            <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/G-bUbZgNcDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/svPrq82MnII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
-          <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
-            <div class="row">
-              <div class="col">
-                <img class="card-img" src="img/1.jpg" alt="photo1">
-                <img class="card-img py-4" src="img/2.jpg" alt="photo2">
-                <img class="card-img" src="img/3.jpg" alt="photo3">
-              </div>
-              <div class="col">
-                <img class="card-img" src="img/4.jpg" alt="photo4">
-                <img class="card-img py-4" src="img/5.jpg" alt="photo5">
-              </div>
-              <div class="col">
-                <img class="card-img" src="img/7.jpg" alt="photo7">
-                <img class="card-img py-4" src="img/8.jpg" alt="photo8">
-                <img class="card-img" src="img/9.jpg" alt="photo9">
-              </div>
+          <div class="row">
+            <iframe class="col-12" width="560" height="315" src="https://www.youtube.com/embed/cD-DELz60yQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+          <div class="row">
+            <div class="col">
+              <img class="card-img" src="img/1.jpg" alt="photo1">
+              <img class="card-img py-4" src="img/2.jpg" alt="photo2">
+              <img class="card-img" src="img/3.jpg" alt="photo3">
+            </div>
+            <div class="col">
+              <img class="card-img" src="img/4.jpg" alt="photo4">
+              <img class="card-img py-4" src="img/5.jpg" alt="photo5">
+            </div>
+            <div class="col">
+              <img class="card-img" src="img/7.jpg" alt="photo7">
+              <img class="card-img py-4" src="img/8.jpg" alt="photo8">
+              <img class="card-img" src="img/9.jpg" alt="photo9">
             </div>
           </div>
         </div>
