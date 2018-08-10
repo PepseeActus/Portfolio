@@ -71,7 +71,7 @@
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around hover-fade">
             <article class="carte">
               <div class="carte__thumb">
                 <a href="#"><img src="img/project1.png" alt="project 1"></a>
@@ -102,13 +102,57 @@
             </article>
             <article class="carte">
               <div class="carte__thumb">
-                <img src="img/project1.png" alt="project 1">
+                <img src="img/project3.png" alt="project 3">
               </div>
               <div class="carte__body">
                 <div class="carte__category">JAVASCRIPT / SVG</div>
                 <div class="carte__title"><a href="#">Snake</a></div>
                 <div class="carte__subtitle">Le jeux du serpent</div>
                 <p class="carte__description">Le jeux du serpent revisité tout en JavaScript afin de m'entrainer</p>
+              </div>
+              <div class="carte__footer text-muted">
+                <span>Projet Personnel</span>
+              </div>
+            </article>
+          </div>
+          <div class="d-flex justify-content-around hover-fade">
+            <article class="carte">
+              <div class="carte__thumb">
+                <a href="paint.html"><img src="img/projet4.jpeg" alt="project 4"></a>
+              </div>
+              <div class="carte__body">
+                <div class="carte__category">HTML / CSS / JAVASCRIPT</div>
+                <div class="carte__title"><a href="paint.html">Paint</a></div>
+                <div class="carte__subtitle">Dessine comme en 1998</div>
+                <p class="carte__description">Une version simple du programme "paint" en javascript from scratch</p>
+              </div>
+              <div class="carte__footer text-muted">
+                <span>Projet 3WA</span>
+              </div>
+            </article>
+            <article class="carte my-4 my-lg-0">
+              <div class="carte__thumb">
+                <a href="" target="_blank"><img src="img/project5.png" alt="project 5"></a>
+              </div>
+              <div class="carte__body">
+                <div class="carte__category"></div>
+                <div class="carte__title"><a href="" target="_blank"></a></div>
+                <div class="carte__subtitle"></div>
+                <p class="carte__description"></p>
+              </div>
+              <div class="carte__footer text-muted">
+                <span>Projet Personnel</span>
+              </div>
+            </article>
+            <article class="carte">
+              <div class="carte__thumb">
+                <img src="img/project6.png" alt="project 6">
+              </div>
+              <div class="carte__body">
+                <div class="carte__category"></div>
+                <div class="carte__title"><a href="#"></a></div>
+                <div class="carte__subtitle"></div>
+                <p class="carte__description"></p>
               </div>
               <div class="carte__footer text-muted">
                 <span>Projet Personnel</span>
@@ -131,20 +175,20 @@
         </div>
         <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
           <div class="container">
-            <div class="row">
+            <div class="row gallery">
               <div class="col-12 col-lg-4">
-                <img class="card-img" src="img/1.jpg" alt="photo1">
-                <img class="card-img py-4" src="img/2.jpg" alt="photo2">
-                <img class="card-img" src="img/3.jpg" alt="photo3">
+                <a href="img/1.jpg"><img class="card-img" src="img/1.jpg" alt="photo1"></a>
+                <a href="img/2.jpg"><img class="card-img py-4" src="img/2.jpg" alt="photo2"></a>
+                <a href="img/3.jpg"><img class="card-img" src="img/3.jpg" alt="photo3"></a>
               </div>
               <div class="col-12 col-lg-4">
-                <img class="card-img pt-4 pt-lg-0" src="img/4.jpg" alt="photo4">
-                <img class="card-img py-4" src="img/5.jpg" alt="photo5">
+                <a href="img/4.jpg"><img class="card-img pt-4 pt-lg-0" src="img/4.jpg" alt="photo4"></a>
+                <a href="img/5.jpg"><img class="card-img py-4" src="img/5.jpg" alt="photo5"></a>
               </div>
               <div class="col-12 col-lg-4">
-                <img class="card-img" src="img/7.jpg" alt="photo7">
-                <img class="card-img py-4" src="img/8.jpg" alt="photo8">
-                <img class="card-img" src="img/9.jpg" alt="photo9">
+                <a href="img/7.jpg"><img class="card-img" src="img/7.jpg" alt="photo7"></a>
+                <a href="img/8.jpg"><img class="card-img py-4" src="img/8.jpg" alt="photo8"></a>
+                <a href="img/9.jpg"><img class="card-img" src="img/9.jpg" alt="photo9"></a>
               </div>
             </div>
           </div>
