@@ -31,6 +31,9 @@
                 <a class="nav-link cool-link pr-4" href="#travaux">Mes travaux</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link cool-link pr-4" href="blog/blog.php" target="_blank">blog</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link cool-link" href="#contact">Contact</a>
               </li>
             </ul>

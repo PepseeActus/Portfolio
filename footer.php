@@ -6,6 +6,7 @@
         <a class="nav-link text-muted p-0" href="#propos">À propos</a>
         <a class="nav-link text-muted p-0" href="#travaux">Mes travaux</a>
         <a class="nav-link text-muted p-0" href="#contact">Contact</a>
+        <a class="nav-link text-muted p-0" href="blog/blog.php" target="_blank">blog</a>
       </nav>
       <nav class="nav flex-column">
         <span class="pb-3">Téléphone</span>

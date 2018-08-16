@@ -102,7 +102,7 @@
             </article>
             <article class="carte">
               <div class="carte__thumb">
-                <img src="img/project3.png" alt="project 3">
+                <img src="img/under-construction.jpg" alt="project 3">
               </div>
               <div class="carte__body">
                 <div class="carte__category">JAVASCRIPT / SVG</div>
@@ -132,7 +132,7 @@
             </article>
             <article class="carte my-4 my-lg-0">
               <div class="carte__thumb">
-                <a href="" target="_blank"><img src="img/project5.png" alt="project 5"></a>
+                <a href="" target="_blank"><img src="img/under-construction.jpg" alt="project 5"></a>
               </div>
               <div class="carte__body">
                 <div class="carte__category"></div>
@@ -146,7 +146,7 @@
             </article>
             <article class="carte">
               <div class="carte__thumb">
-                <img src="img/project6.png" alt="project 6">
+                <img src="img/under-construction.jpg" alt="project 6">
               </div>
               <div class="carte__body">
                 <div class="carte__category"></div>

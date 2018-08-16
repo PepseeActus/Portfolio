@@ -24,10 +24,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.firstPart a:hover,
+a:hover {
+  color: #E6AF2E !important;  
+}
 .firstPart i:hover,
-footer .reseaux a i,
-.secondPart a:hover {
+footer .reseaux a i {
   color: #E6AF2E;
   text-decoration: none;
 }
